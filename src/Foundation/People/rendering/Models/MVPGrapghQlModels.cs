@@ -156,7 +156,7 @@ namespace Mvp.Foundation.People.Models
 		public Country country { get; set; }
 		public string mvpYear { get; set; }
 		public string mvpCategory { get; set; }
-        [IndexField]
+        //[IndexField]
         public string personApplicantUrl { get; set; }
     }
 
