@@ -14,12 +14,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
 		Directory.build.props = Directory.build.props
 		Directory.build.targets = Directory.build.targets
 		Docker.pubxml = Docker.pubxml
+		init.ps1 = init.ps1
 		nuget.config = nuget.config
 		Packages.props = Packages.props
 		README.md = README.md
+		up.ps1 = up.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docker", "_Docker", "{7A261AC4-6FD2-4E54-9DBE-82D78601A150}"
@@ -120,6 +123,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVP.Feature.Forms.Rendering", "src\Feature\Forms\rendering\MVP.Feature.Forms.Rendering.csproj", "{165EC460-FE36-41A6-9F59-4CE97E0CEE2E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvp.Feature.Forms.Shared", "src\Feature\Forms\shared\Mvp.Feature.Forms.Shared.csproj", "{2B4471E1-ADE9-4DE9-8DEC-C44CC3AE918D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{07602A15-02D8-4570-B735-AF5B39DD7CF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{921E6F6D-F234-4119-9CAE-08BD5387A317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +254,8 @@ Global
 		{33F04BBA-B1E9-4346-A728-867521FFB7F1} = {13AE13A5-0375-40D5-843D-E6DF9F82139E}
 		{165EC460-FE36-41A6-9F59-4CE97E0CEE2E} = {BE52A36E-7E3A-4F38-ACEB-600DE4DAFC1D}
 		{2B4471E1-ADE9-4DE9-8DEC-C44CC3AE918D} = {BE52A36E-7E3A-4F38-ACEB-600DE4DAFC1D}
+		{07602A15-02D8-4570-B735-AF5B39DD7CF4} = {ADCA10F7-A1D2-407B-8074-60418168C02E}
+		{921E6F6D-F234-4119-9CAE-08BD5387A317} = {ADCA10F7-A1D2-407B-8074-60418168C02E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
