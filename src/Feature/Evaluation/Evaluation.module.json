@@ -1,0 +1,13 @@
+{
+    "namespace": "Feature.Evaluation",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/Evaluation",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants"
+            }
+        ]
+    }
+}
