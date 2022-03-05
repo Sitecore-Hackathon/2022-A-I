@@ -9,19 +9,13 @@
 You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
 
 ## Team name
-⟹ Write the name of your Hackathon team here
+⟹ A.I.
 
 ## Category
-⟹ Write the name of the selected category
+⟹ Category: Best addition to the Sitecore MVP site
 
 ## Description
-⟹ Write a clear description of your hackathon entry.  
-
-  - Module Purpose
-  - What problem was solved (if any)
-    - How does this module solve it
-
-_You can alternately paste a [link here](#docs) to a document within this repo containing the description._
+⟹ There is a necessity to evaluate Sitecore professionals in an automated way, so they can become Sitecore MVP professionals based on an automatic evaluation process.
 
 ## Video link
 ⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
@@ -30,58 +24,49 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 
 
 
-## Pre-requisites and Dependencies
+## Installation Instructions
 
-⟹ Does your module rely on other Sitecore modules or frameworks?
+- Install docker with Windows Containers
+- Run Powershell as Administrator
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Copy your latest sitecore licence in the following folder:
+```sh
+C:\license\license.xml
+```
 
-_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
+- Execute the following command:
+```sh
+.\init.ps1 -InitEnv -LicenseXmlPath "C:\license\license.xml" -AdminPassword "b"
+```
 
-## Installation instructions
-⟹ Write a short clear step-wise instruction on how to install your module.  
+- Then execute the following command:
+```sh
+.\up.ps1
+```
 
-> _A simple well-described installation process is required to win the Hackathon._  
-> Feel free to use any of the following tools/formats as part of the installation:
-> - Sitecore Package files
-> - Docker image builds
-> - Sitecore CLI
-> - msbuild
-> - npm / yarn
-> 
-> _Do not use_
-> - TDS
-> - Unicorn
- 
-f. ex. 
+- Wait for the installation, this can take few minutes to complete the process
 
-1. Start docker environment using `.\Start-Hackathon.ps1`
-2. Open solution in Visual Studio and run build
-3. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-4. ...
-5. profit
-
-### Configuration
-⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
-
-_Remove this subsection if your entry does not require any configuration that is not fully covered in the installation instructions already_
 
 ## Usage instructions
-⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
+⟹ 
+There is a necessity to evaluate Sitecore professionals in an automated way, so they can become Sitecore MVP professionals based on an automatic evaluation process.
 
-Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+Consequently, We propose a solution on the MVP website to integrate an automatic evaluation system based on some metrics that you can configure on Sitecore.
 
-![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
+Our solution is based on the current MVP website, so we integrate that solution into the contest repo. 
+that means, you can follow the same MVP site installation steps to start working with the current solution, 
+but it's important to follow the instructions on the read me file to sync the content with the Sitecore Management Services
 
-You can embed images of different formats too:
+First of all, we added a view to display the list of applicants to the Sitecore MVP award, 
+based on that scenario we modified the Person template to include a flag to determine if the new person is an applicant. 
 
-![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
+Besides that, we re-used the grap-ql query to get those new applicants and display them in a new view as you can see here.
+The Sitecore personnel with access rights to edit the evaluation metrics can use the following item to add metrics or remove some of them if they want to do it 
 
-And you can embed external images too:
+Once those metrics are set up, Evaluators can go to the MVP website, log in and start evaluating all applicants based on the previously defined metrics.
+First, the evaluator can choose an applicant from the list displayed in the view, once the applicant was selected, 
+the evaluator can define the percentage of each metric at a maximum of 100%. 
 
-![Random](https://thiscatdoesnotexist.com/)
+Once the evaluation is completed you can submit the information in order to save the evaluation status. 
+Furthermore, on the same MVP website, you can display an ordered list with the ranking of best applicants and choose the best to become a Sitecore MVP. 
 
-## Comments
-If you'd like to make additional comments that is important for your module entry.
