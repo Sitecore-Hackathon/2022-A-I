@@ -7,6 +7,12 @@
                 "path": "/sitecore/templates/Feature/Evaluation",
                 "allowedPushOperations": "createUpdateAndDelete",
                 "scope": "itemAndDescendants"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Feature/Evaluation",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants"
             }
         ]
     }
