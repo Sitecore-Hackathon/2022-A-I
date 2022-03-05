@@ -6,11 +6,13 @@ ARG TOOLS_RESOURCES_IMAGE
 ARG DEVEX_RESOURCES_IMAGE
 ARG HEADLESS_SERVICES_RESOURCES_IMAGE
 ARG SPE_RESOURCES_IMAGE
+ARG SMS_IMAGE
 
 FROM ${SOLUTION_IMAGE} as solution
 FROM ${TOOLS_RESOURCES_IMAGE} as tooling
 FROM ${DEVEX_RESOURCES_IMAGE} AS devex_resources
 FROM ${HEADLESS_SERVICES_RESOURCES_IMAGE} AS headless_services_resources
+FROM ${SMS_IMAGE} AS sms
 FROM ${SPE_RESOURCES_IMAGE} AS spe_resources
 FROM ${BASE_IMAGE}
 
@@ -20,6 +22,9 @@ WORKDIR C:\inetpub\wwwroot
 
 # Copy developer tools and entrypoint
 COPY --from=tooling C:\tools C:\tools
+
+# Copy Sitecore Management Services
+COPY --from=sms C:\module\cm\content .\
 
 # Copy the Sitecore Management Services Module
 COPY --from=devex_resources C:\module\cm\content C:\inetpub\wwwroot
