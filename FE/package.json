@@ -1,0 +1,14 @@
+{
+  "name": "hackaton-a-i",
+  "version": "1.0.0",
+  "description": "front-end project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Oshyn",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
