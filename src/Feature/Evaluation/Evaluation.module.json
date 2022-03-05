@@ -13,6 +13,12 @@
                 "path": "/sitecore/layout/Renderings/Feature/Evaluation",
                 "allowedPushOperations": "createUpdateAndDelete",
                 "scope": "itemAndDescendants"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/MvpSite/Home/Applicants",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants"
             }
         ]
     }

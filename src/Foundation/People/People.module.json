@@ -1,17 +1,19 @@
 {
-   "namespace": "Foundation.People",
-   "items": {
-      "includes": [
-        {
-          "name": "templates",
-          "path": "/sitecore/templates/Foundation/People",
-          "allowedPushOperations": "CreateUpdateAndDelete"
-        },
-        {
-          "name": "renderings",
-          "path": "/sitecore/layout/Renderings/Foundation/People",
-          "allowedPushOperations": "CreateUpdateAndDelete"
-        }
-      ]
+    "namespace": "Foundation.People",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Foundation/People",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "itemAndDescendants"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Foundation/People",
+                "allowedPushOperations": "CreateUpdateAndDelete",
+                "scope": "itemAndDescendants"
+            }
+        ]
     }
 }

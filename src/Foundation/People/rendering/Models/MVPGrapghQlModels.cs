@@ -136,6 +136,11 @@ namespace Mvp.Foundation.People.Models
 		public string value { get; set; }
 	}
 
+    public class PeronsalApplicantUrl
+    {
+        public string value { get; set; }
+    }
+
 	public class TargetItem
 	{
 		public string name { get; set; }
@@ -157,7 +162,7 @@ namespace Mvp.Foundation.People.Models
 		public string mvpYear { get; set; }
 		public string mvpCategory { get; set; }
         //[IndexField]
-        public string personApplicantUrl { get; set; }
+        public string personapplicanturl { get; set; }
     }
 
 

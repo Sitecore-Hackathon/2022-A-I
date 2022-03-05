@@ -10,6 +10,37 @@ SharedFields:
 - ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
   Hint: __Bucketable
   Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{1AE49D12-8DA1-4FBD-92FF-887B01C02BB5}">
+        <r
+          ds="{C4DADD5E-1521-4C6D-AFCE-39D237751541}"
+          id="{A4F28B31-5D18-4158-92AB-F4D2ECA6D2BE}"
+          par=""
+          ph="header"
+          uid="{69324A4E-6586-4E1D-92BA-6BB20AF096B7}"
+          ccb="Clear on publish" />
+        <r
+          id="{C9593FF9-14AC-4C8E-B217-D85C05ADEAD7}"
+          ph="header"
+          uid="{89BBE9A5-D0B2-42A5-AF90-D96DFAAD1876}" />
+        <r
+          ds=""
+          id="{CA88E346-79FA-423C-8418-4BDADF85137E}"
+          par=""
+          ph="main"
+          uid="{C334804D-13CA-49C7-A975-75235A1D81ED}"
+          ccb="Clear on publish" />
+        <r
+          id="{437CCC09-AB5D-47B3-96D7-2B05BDFF5324}"
+          ph="footer"
+          uid="{FE8CDDF3-DC14-4E49-8F1E-8345C30A28DA}" />
+      </d>
+    </r>
 - ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
   Hint: __Should Not Organize In Bucket
   Value: 1
@@ -31,11 +62,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b0910659-6805-4da0-ae32-15566175d82c"
+      Value: "4fcfcca5-49d5-4281-910e-283e2c884686"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20210901T202801Z
+      Value: 20220305T214129Z
