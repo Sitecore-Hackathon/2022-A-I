@@ -22,7 +22,7 @@ namespace Mvp.Foundation.People.Components
         {
             var searchParams = _graphQLPeopleService.CreateSearchParams();
             searchParams.Language = GetLanguage();
-            searchParams.RootItemId = "{64F31E3A-2040-4E69-B9A7-6830CBE669D2}";
+            searchParams.RootItemId = "{C3987FDA-B590-47D1-834A-F405896DBA72}";
             searchParams.IsInEditingMode = this.HttpContext.GetSitecoreRenderingContext().Response?.Content?.Sitecore?.Context?.IsEditing;
             searchParams.PageSize = 20;
             searchParams.CursorValueToGetItemsAfter = GetCursorIndex(searchParams.PageSize);

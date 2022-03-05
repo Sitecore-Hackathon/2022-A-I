@@ -1,0 +1,41 @@
+﻿---
+ID: "aa8283d6-69c2-45ec-a6bb-84e157e28e2b"
+Parent: "5db5964f-5edf-4261-995e-5f03e7926ae9"
+Template: "ad9c7837-8660-4360-ba2b-7addf4163685"
+Path: /sitecore/content/MvpSite/Home/Applicants/m/Marcelo Vallejo Applicant
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "022de4c6-82cf-437c-9424-2fddf1a94f68"
+      Hint: First Name
+      Value: Marcelo
+    - ID: "046fb914-f54f-4e3a-85e8-8ea5e3b7db7f"
+      Hint: Country
+      Value: "{90DE4F63-CB89-4C59-BAC3-C06EABB267F1}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220305T170115Z
+    - ID: "5abccf54-b9a1-4c33-91a4-473280644299"
+      Hint: Introduction
+      Value: Introduction
+    - ID: "6b015a96-c000-4e3e-8e09-526cb28cc5b8"
+      Hint: IsApplicant
+      Value: 1
+    - ID: "8561a65d-741e-4ead-985e-ea1880e196a9"
+      Hint: Email
+      Value: mvallejo@oshyn.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5a22555-3e3f-4ef1-8fee-69add32eeed9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0b5d514-19c3-430e-9a5a-42763211573d"
+      Hint: Last Name
+      Value: Vallejo
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T183037Z

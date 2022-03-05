@@ -34,7 +34,7 @@
 		<PackageReference Include="Microsoft.AspNetCore.Session" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
 		<PackageReference Include="Microsoft.Extensions.Http" />
-		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets"  />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
 		<PackageReference Include="Sitecore.LayoutService.Client" />
 		<PackageReference Include="Sitecore.AspNet.RenderingEngine" />
@@ -43,6 +43,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\Feature\BasicContent\rendering\Mvp.Feature.BasicContent.Rendering.csproj" />
+		<ProjectReference Include="..\..\..\Feature\Evaluation\Mvp.Feature.Evaluation.Rendering\Mvp.Feature.Evaluation.Rendering.csproj" />
 		<ProjectReference Include="..\..\..\Feature\Forms\rendering\MVP.Feature.Forms.Rendering.csproj" />
 		<ProjectReference Include="..\..\..\Feature\Navigation\rendering\Mvp.Feature.Navigation.Rendering.csproj" />
 		<ProjectReference Include="..\..\..\Feature\Social\rendering\Mvp.Feature.Social.Rendering.csproj" />

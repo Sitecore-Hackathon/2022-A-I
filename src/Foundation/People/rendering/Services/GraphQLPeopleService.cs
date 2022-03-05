@@ -53,8 +53,9 @@ namespace Mvp.Foundation.People.Services
 
 			List<FieldFilter> fieldFilters = new List<FieldFilter>();
 			fieldFilters.Add(new FieldFilter() { name = "_templatename", value = "Person" });
-			fieldFilters.Add(new FieldFilter() { name = "ismvp", value = "true" });
-			fieldsEqualsList.AddRange(fieldFilters);
+            //fieldFilters.Add(new FieldFilter() { name = "ismvp", value = "true" });
+            fieldFilters.Add(new FieldFilter() { name = "isapplicant", value = "true" });
+            fieldsEqualsList.AddRange(fieldFilters);
 			GraphQL.GraphQLResponse<Response> response = await _graphQLProvider.SendQueryAsync<Response>(searchParams.IsInEditingMode, GraphQLFiles.PeopleSearchAdvanced, new
 			{
 				language = searchParams.Language,

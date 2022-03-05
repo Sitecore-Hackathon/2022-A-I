@@ -93,9 +93,10 @@
                 <div class="mvp-results-entries row">
                     @foreach (var person in Model.People)
 			        {
+                      
                     <div class="col-lg-4 col-sm-6 col-xs-12 card--wrapper">
                         <div class="card rounded-0">
-                            <a class="content">
+                            <a class="content" href="@person.url">
                                 <!--Get users latest MVP year-->
                                 <div class="mvp-year">@person.mvpYear</div>
                                 <img class="card-img-top" src="@person.email.value.ToGravatar("253", "https://mvp.sitecore.net/images/mvp-base-user-grey.png")" alt="@person.firstName.value @person.lastName.value Sitecore MVP" />

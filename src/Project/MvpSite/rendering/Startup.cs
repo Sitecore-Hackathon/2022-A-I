@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Mvp.Feature.BasicContent.Extensions;
+using Mvp.Feature.Evaluation.Rendering.Extensions;
 using Mvp.Feature.Forms.Extensions;
 using Mvp.Feature.Navigation.Extensions;
 using Mvp.Feature.Social.Extensions;

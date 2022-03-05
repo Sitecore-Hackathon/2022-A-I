@@ -30,7 +30,15 @@ namespace Mvp.Foundation.People.Extensions
 					description: "MVP Person category",
 					resolve: context => GetLatestMvpCategory(context.Source));
 			});
-		}
+            ExtendTypes<ObjectGraphType<Item>>(type =>
+            {
+                // add a new field to the field object type
+                // note the resolve method's Source property is the Field so you can get at its data
+                type.Field<StringGraphType>("personapplicanturl",
+                    description: "Application URL",
+                    resolve: context => GetLatestMvpCategory(context.Source));
+            });
+        }
 
 		private string GetLatestMvpYear(Sitecore.Data.Items.Item personItem)
 		{

@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Mvp.Feature.BasicContent.Extensions;
+using Mvp.Feature.Evaluation.Rendering.Extensions;
 using Mvp.Feature.Navigation.Extensions;
 using Mvp.Project.Sugcon.Configuration;
 using Sitecore.AspNet.ExperienceEditor;
@@ -77,6 +78,7 @@ namespace Mvp.Project.Sugcon.Rendering
           options
             .AddFeatureBasicContent()
             .AddFeatureNavigation()
+            .AddFeatureEvaluation()
             .AddDefaultPartialView("_ComponentNotFound");
         })
         // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that

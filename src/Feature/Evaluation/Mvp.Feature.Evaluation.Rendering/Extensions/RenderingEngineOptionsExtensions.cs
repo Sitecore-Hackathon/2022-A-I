@@ -9,7 +9,7 @@ namespace Mvp.Feature.Evaluation.Rendering.Extensions
 {
     public static class RenderingEngineOptionsExtensions
     {
-        public static RenderingEngineOptions AddFeatureBasicContent(this RenderingEngineOptions options)
+        public static RenderingEngineOptions AddFeatureEvaluation(this RenderingEngineOptions options)
         {
             options.AddModelBoundView<EvaluationModel>("Evaluation");
 

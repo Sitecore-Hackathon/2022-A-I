@@ -9,6 +9,7 @@ namespace Mvp.Feature.Forms.Extensions
         public static RenderingEngineOptions AddFeatureForms(this RenderingEngineOptions options)
         {
             options.AddModelBoundView<ApplicationModel>("Application")
+                .AddModelBoundView<EvaluationModel>("Evaluation")
                 .AddModelBoundView<TermsAndConditionsModel>("Terms");
 
             return options;

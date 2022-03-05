@@ -1,0 +1,26 @@
+﻿---
+ID: "b2d11870-b0a0-4ed1-8301-189438843ae3"
+Parent: "68fd7927-4d08-4071-a554-95cd6570b45b"
+Template: "79435c1d-4b9e-4cbf-b1c1-25b511940799"
+Path: /sitecore/content/MvpSite/Home/Evaluation/Page Components/Evaluation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220305T142959Z
+    - ID: "2a4c2406-aefd-4765-ae40-9e94cfb01f6b"
+      Hint: Metric
+      Value: MetricA=20&MetricB=30
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9deb8e4d-e1d4-4b80-b1af-97581d5e48c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220305T144844Z
