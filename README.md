@@ -18,10 +18,8 @@ You can find a very good reference to Github flavoured markdown reference in [th
 ⟹ There is a necessity to evaluate Sitecore professionals in an automated way, so they can become Sitecore MVP professionals based on an automatic evaluation process.
 
 ## Video link
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
-
-⟹ [Replace this Video link](#video-link)
-
+⟹ 
+https://youtu.be/zmdrOT6-imo
 
 
 ## Installation Instructions
